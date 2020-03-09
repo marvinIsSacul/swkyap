@@ -13,6 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Word extends CI_Controller {
     public function index() {
-        echo 'hi';
+        $this->load->view('layouts/header');
+        $this->load->view('layouts/footer');
     }
 }
