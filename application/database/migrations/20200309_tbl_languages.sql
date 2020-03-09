@@ -6,27 +6,14 @@ CREATE TABLE "tbl_languages" (
 );
 
 
-INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES (NULL,'',NULL,NULL);
-UPDATE "main"."tbl_languages" SET "name"=? WHERE "_rowid_"='1';
-INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES (NULL,'',NULL,NULL);
-INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES (NULL,'',NULL,NULL);
-UPDATE "main"."tbl_languages" SET "name"=? WHERE "_rowid_"='2';
-UPDATE "main"."tbl_languages" SET "name"=? WHERE "_rowid_"='3';
-INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES (NULL,'',NULL,NULL);
-UPDATE "main"."tbl_languages" SET "name"=? WHERE "_rowid_"='4';
-INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES (NULL,'',NULL,NULL);
-UPDATE "main"."tbl_languages" SET "name"=? WHERE "_rowid_"='5';
-UPDATE "main"."tbl_languages" SET "name"=? WHERE "_rowid_"='5';
-INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES (NULL,'',NULL,NULL);
-UPDATE "main"."tbl_languages" SET "name"=? WHERE "_rowid_"='6';
-INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES (NULL,'',NULL,NULL);
-UPDATE "main"."tbl_languages" SET "id"=? WHERE "_rowid_"='7';
-UPDATE "main"."tbl_languages" SET "name"=? WHERE "_rowid_"='7';
-INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES (NULL,'',NULL,NULL);
-UPDATE "main"."tbl_languages" SET "name"=? WHERE "_rowid_"='8';
-INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES (NULL,'',NULL,NULL);
-UPDATE "main"."tbl_languages" SET "name"=? WHERE "_rowid_"='9';
-INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES (NULL,'',NULL,NULL);
-UPDATE "main"."tbl_languages" SET "name"=? WHERE "_rowid_"='10';
-INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES (NULL,'',NULL,NULL);
-UPDATE "main"."tbl_languages" SET "name"=? WHERE "_rowid_"='11';
+INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES ('1','isiZulu',NULL,NULL);
+INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES ('2','isiXhosa',NULL,NULL);
+INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES ('3','Afrikaans',NULL,NULL);
+INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES ('4','English',NULL,NULL);
+INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES ('5','SePedi',NULL,NULL);
+INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES ('6','Setswana',NULL,NULL);
+INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES ('7','Sesotho',NULL,NULL);
+INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES ('8','Xitsonga',NULL,NULL);
+INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES ('9','siSwati',NULL,NULL);
+INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES ('10','Tshivenḓa',NULL,NULL);
+INSERT INTO "main"."tbl_languages"("id","name","iso_code","description") VALUES ('11','isiNdebele',NULL,NULL);
