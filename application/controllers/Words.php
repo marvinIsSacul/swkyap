@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * The Word 
  */
-class Word extends CI_Controller {
+class Words extends CI_Controller {
     public function index() {
         $this->load->view('layouts/header');
         $this->load->view('layouts/footer');
