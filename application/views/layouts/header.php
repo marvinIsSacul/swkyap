@@ -32,27 +32,28 @@
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
 
-                <a class="navbar-item">
+                <a href="<?= site_url('words/submit') ?>" class="navbar-item">
                     Submit Word
                 </a>
 
                 <div class="navbar-item has-dropdown is-hoverable">
 
-                    <a class="navbar-link">
-                        Words
-                    </a>
+                        <a class="navbar-link">
+                            Words
+                        </a>
 
-                    <div class="navbar-dropdown">
-                        <a class="navbar-item">
-                            Pedi
-                        </a>
-                        <a class="navbar-item">
-                            Xhosa
-                        </a>
-                        <a class="navbar-item">
-                            Zulu
-                        </a>
-                    </div>
+                        <div class="navbar-dropdown">
+
+                            <?php foreach ($languages as $language): ?>
+
+                                <a href="<?= site_url('words/view/' . $language->id) ?>" class="navbar-item">
+                                    <?= htmlspecialchars($language->name) ?>
+                                </a>
+                                    
+                            <?php endforeach ?>
+
+                        </div>
+
                 </div>
             </div>
         </div>

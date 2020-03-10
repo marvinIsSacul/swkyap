@@ -9,6 +9,7 @@ application/logs/*
 !application/*/.htaccess
 
 main.db-journal
+*.editorconfig
 
 composer.lock
 
